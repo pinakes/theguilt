@@ -1,5 +1,6 @@
 .no-padding {
-	padding: 0;
+	padding-left: 0;
+	padding-right: 0;
 }
 h1 {
 	display: block;
@@ -12,6 +13,10 @@ h1 {
 	background-size: 100%;
 	z-index: 9999999;
 }
+a:link, a:hover, a:visited {
+	color: #ffffff;
+	text-decoration: underline;
+}
 .content {
 	position: absolute;
     top: 45%;
@@ -20,20 +25,56 @@ h1 {
 }
 video#video {
 	position: absolute;
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
+	min-width: 100vw;
+	min-height: 100vh;
+	top: 0;
+	right: 0;
 	background: url(assets/video.png) no-repeat;
 	background-size: cover;
 }
 .env {	
     display: table;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     position: relative;
     overflow: hidden;
 }
 .modal-body {
 	padding: 0;
+}
+.albums h2, .bio h2 {
+	margin: 1.5em 0 1em 0; 
+}
+.albums h4 {
+	margin: 1em 0 0.5em 0; 
+}
+.albums p, .bio p {
+	margin: 0.5em 0 2.5em 0;
+}
+.black {
+	background-color: #000000;
+	color: #ffffff;
+}
+.black hr {
+	border-top-color: rgba(255,255,255,.3);
+}
+.bio { position: relative; }
+.bio picture {
+	margin-right: 0.5em;
+}
+.random1 {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	right: 10vw;
+	top: 3em;
+	opacity: .6;
+}
+.random2 {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 10vw;
+	top: 12em;
+	opacity: .6;
 }
