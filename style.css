@@ -52,7 +52,7 @@ video#video {
 	margin: 0.5em 0 2.5em 0;
 }
 .black {
-	background-color: #000000;
+	background-color: #000c1e;
 	color: #ffffff;
 }
 .black hr {
@@ -62,12 +62,15 @@ video#video {
 .bio picture {
 	margin-right: 0.5em;
 }
+.bioPic {
+	width: 100%;
+}
 .random1 {
 	width: 200px;
 	height: 200px;
 	position: absolute;
 	right: 10vw;
-	top: 3em;
+	bottom: 14em;
 	opacity: .6;
 }
 .random2 {
@@ -75,6 +78,6 @@ video#video {
 	height: 200px;
 	position: absolute;
 	left: 10vw;
-	top: 12em;
+	bottom: 42em;
 	opacity: .6;
 }
