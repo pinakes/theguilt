@@ -9,7 +9,7 @@ h1 {
 	height: 127px;
 	text-indent: -9000px;
 	overflow: hidden;
-	background: url('assets/title.png') no-repeat;
+	background: url('assets/title_yellow.png') no-repeat;
 	background-size: 100%;
 	z-index: 9999999;
 }
